@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-title {
+    letter-spacing: 1rem;
+    transition: all .2s ease-in-out;
+}
+
+.hero:hover .bg-title{
+    letter-spacing: 1.5rem;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
